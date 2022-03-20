@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: grey;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    width: 47vw;
+    left: 22vw;
+    top: 20vh;
+    padding: 5vh;
+    background: white;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 1em;
+}
+.name{
+    width: 20vw;
+    height: 5vh;
+    padding-left: 1vw;
+}
+.surname{
+    width: 20vw;
+    height: 4vh;
+    height: 5vh;
+    margin-left: 3vw;
+    padding-left: 1vw;
+}
+.email{
+    width: 44.5vw;
+    height: 5vh;
+    margin-top: 2vh;
+    padding-left: 1vw;
+}
+.telephone{
+    width: 20vw;
+    height: 5vh;
+    margin-top: 2vh;
+    padding-left: 1vw;
+}
+.country{
+    width: 20vw;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    padding-left: 1vw;
+}
+.address{
+    width: 44.5vw;
+    height: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding-left: 1vw;
+}
+.terms_of_use{
+    color: #008060;
+    text-decoration: none;
+}
+.verify_terms{
+    font-size: 3vh;
+}
+.partnership_head{
+    font-size: 7vh;
+    text-align: center;
+    padding-right: 4vw;
+    padding-bottom: 2vh;
+}
+.register_now{
+    padding: 1vh;
+    top: 2vh;
+    width: 45.9vw;
+    height: 6vh;
+    background: #1342db;
+    border: 0;
+    margin-top: 2vh;
+    color: white;
+    font-size: 3vh;
+    border-radius: 0.2em;
+}
+.register_now:hover{
+    background: #0a36c5;
+
+}
+.registeration_info{
+    text-align: center;
+    padding-right: 5vw;
+    padding-bottom: 2vh;
+}
+
+
+
+.school{
+    margin-left: 1vw;
+}
+.computer{
+    margin-left: 1vw;
+}
+.games{
+    margin-left: 1vw;
+}
+.health{
+    margin-left: 1vw;
+}
+.sport{
+    margin-left: 1vw;
+}
