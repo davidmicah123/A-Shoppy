@@ -191,4 +191,42 @@ select{
     background-color: white;
 }
 
+.photo_display{
+    width: 25vw;
+    height: 35vh;
+    background: yellow;
+}
+.product_photo{
+    width: 22vw;
+    height: 30vh;
+    padding-left: 1.5vw;
+    padding-top: 3vh;
+}
+.price_tag{
+    padding: 1vh;
+    position: absolute;
+    left: 20vw;
+    margin-top: 1vh;
+    width: 5vw;
+    height: 5vh;
+    font-size: 3vh;
+    color: white;
+    background-color: #0a36c5;
+    border: 0;
+    border-radius: .2em;
+}
 
+
+
+
+#product_name{
+    font-size: 3.7vh;
+}
+.product_cost{
+    font-size: 3vh;
+}
+.removed_percentage{
+    color: red;
+    font-size: 3vh;
+    
+}

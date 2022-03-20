@@ -232,7 +232,7 @@
     margin-bottom: 2vh;
 }
 .home_delivery_img{
-    width: 40vw;
+    width: 50vw;
 }
 .home_delivery_info{
     font-size: 4vh;
@@ -279,7 +279,7 @@
 
 /*Delivery agents*/
 .delivery_agents{
-    background-image: url('bg.png');
+    background-image: url('images/bg.png');
     background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -313,16 +313,23 @@
 }
 
 /* partnership section*/
-.patnership{
+.patnership1{
     display: grid;
     grid-template-columns: 50vw 40vw;
-    grid-gap: 3vw;
+    grid-gap: 1vw;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.patnership2{
+    display: grid;
+    grid-template-columns: 40vw 50vw;
+    grid-gap: 1vw;
     width: 90vw;
     margin-left: 5vw;
 }
 .patnership_image{
     height: 70vh;
-    width: 45vw;
+    width: 40vw;
 }
 .partnership_text{
     display: grid;
@@ -332,10 +339,22 @@
 /*Rating section*/
 .rating{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 80vw;
-    margin-left: 10vw;
+    grid-template-columns: 40vw 40vw;
+    width: 94.92%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-left: 5vw;
+    padding-right: 0;
     grid-gap: 3vw;
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rating_col1{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    color: white;
 }
 
 /* Footer Section */
